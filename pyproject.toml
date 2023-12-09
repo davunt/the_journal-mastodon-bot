@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "the_journal-mastodon-bot"
+version = "0.1.0"
+description = ""
+authors = ["Davunt <15195273+davunt@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "^6.0.10"
+mastodon-py = "^1.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+pylint = "^3.0.2"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

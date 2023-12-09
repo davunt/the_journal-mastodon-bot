@@ -1,0 +1,14 @@
+# terraform
+terraform/terraform.tfvars
+terraform/*.tfstate*
+terraform/.terraform.lock.hcl
+terraform/.terraform
+
+# python
+.venv
+requirements.txt
+__pycache__
+
+# deployment
+/layer
+/output
